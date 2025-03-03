@@ -33,7 +33,7 @@ jobs:
         run: gdc main.d
         
       - name: Run a one-line script
-        run: a.out
+        run: ./a.out
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
