@@ -30,7 +30,7 @@ jobs:
         run: sudo apt update && sudo apt install gdc build-essential
 
       - name: Run a one-line script
-        run: gdc main.d
+        run: gdc -O2 main.d
         
       - name: Run a one-line script
         run: ./a.out
